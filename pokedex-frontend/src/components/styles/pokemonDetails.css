@@ -1,0 +1,374 @@
+.pokemon__background {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg__normal,
+.bg__unknown {
+  background-color: rgba(46, 46, 46, 0.8);
+}
+
+.bg__normal,
+.bg__unknown {
+  background-color: rgba(46, 46, 46, 0.8);
+}
+.bg__fighting {
+  background-color: #96402aa5;
+}
+.bg__flying {
+  background-color: #735259aa;
+}
+.bg__poison {
+  background-color: #5b3184aa;
+}
+.bg__ground {
+  background-color: #654008aa;
+}
+.bg__rock {
+  background-color: #7e7e7eaa;
+}
+.bg__bug {
+  background-color: #98d197aa;
+}
+.bg__ghost {
+  background-color: #323569aa;
+}
+.bg__steel {
+  background-color: #5e736caa;
+}
+.bg__fire {
+  background-color: #e358257b;
+
+  /* #F96D6F */
+}
+.bg__water {
+  background-color: #133258aa;
+}
+.bg__grass {
+  background-color: #cae099aa;
+}
+.bg__electric {
+  background-color: rgba(220, 198, 73, 0.455);
+}
+.bg__psychic {
+  background-color: #971b45aa;
+}
+.bg__ice {
+  background-color: #6fbedf91;
+}
+.bg__dragon {
+  background-color: #478a93aa;
+}
+.bg__dark,
+.bg-shadow {
+  background-color: #030706aa;
+}
+.bg__fairy {
+  background-color: rgba(230, 129, 222, 0.604);
+}
+
+.goBack {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  font-size: 40px;
+  background: none;
+  color: white;
+}
+
+.pokemon__fullDetails {
+  padding: 20px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+  color: rgba(64, 64, 64, 0.952);
+}
+
+.pokemon__card {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 200px 100px 100px 100px;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 1px 7px #0003;
+  cursor: pointer;
+  transition: transform 200ms ease;
+  gap: 2em;
+  margin-top: 100px;
+}
+
+/*FROM IMAGE TO HEIGHT*/
+
+.pokemon__infoDetails {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  margin-top: 120px;
+}
+
+.pokemon__infoDetails h1 {
+  font-size: 40px;
+}
+
+.pokemon__basic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  text-align: center;
+}
+
+.pokemon__basic p {
+  font-size: 12px;
+}
+
+.pokemon__basic span {
+  font-weight: 700;
+}
+
+/* ALL STATS */
+
+.pokemon__stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+  width: 100%;
+}
+
+/*TYPE AND ABILITIES*/
+
+.pokemon__features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3em;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 10px;
+  margin-bottom: 20px;
+  background-color: rgba(236, 230, 230, 0.363);
+}
+
+.pokemon__type,
+.pokemon__abilities {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  flex-direction: column;
+  text-transform: capitalize;
+}
+
+.pokemon__abilities ul,
+.pokemon__type ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.pokemon__abilities ul li,
+.pokemon__type ul li {
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: white;
+  font-size: 12px;
+}
+
+/*STATS */
+
+.pokemon__cardStats {
+  width: 100%;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 50px;
+}
+
+.pokemon__cardStats ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.stat__bar {
+  width: 100%;
+  background-color: rgba(236, 230, 230, 0.363);
+  height: 25px;
+  margin-top: 10px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.progrss__bar {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.progrss__bar > h4 {
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
+}
+
+.stat__name {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.stat__bar {
+  border-radius: 5px;
+}
+
+/*MOVEMENTS*/
+
+.pokemon__movements {
+  background-color: rgba(255, 255, 255, 1);
+  width: 80%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  box-shadow: 0 1px 7px #0003;
+  cursor: pointer;
+  gap: 1em;
+  padding: 40px 40px;
+  color: rgba(64, 64, 64, 0.952);
+  text-transform: capitalize;
+}
+
+.pokemon__movements ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.pokemon__movements ul li {
+  background-color: #e5e5e5;
+  padding: 8px 12px;
+  border-radius: 20px;
+  box-shadow: 6px -6px 12px #fff, -6px 6px 12px #ccc;
+  color: rgb(157, 157, 157);
+}
+
+.pokemon__card__avatar {
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  top: 15px;
+  animation: shake 0.52s cubic-bezier(0.36, 0.07, 0.19, 0.97) infinite;
+}
+
+@media (min-width: 450px) {
+  .pokemon__infoDetails {
+    margin-top: 140px;
+  }
+}
+
+@media (max-width: 650px) {
+  .progrss__bar > h4 {
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+  }
+}
+
+@media (min-width: 450px) {
+  .pokemon__infoDetails {
+    margin-top: 140px;
+  }
+}
+
+@media (min-width: 550px) {
+  .pokemon__infoDetails {
+    margin-top: 200px;
+  }
+}
+
+@media (min-width: 650px) {
+  .pokemon__infoDetails {
+    margin-top: 250px;
+  }
+}
+
+@media (min-width: 750px) {
+  .pokemon__infoDetails {
+    margin-top: 300px;
+  }
+}
+
+@media (min-width: 850px) {
+  .pokemon__card {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+    gap: 0;
+    margin-top: 0px;
+  }
+
+  .pokemon__infoDetails {
+    width: 40%;
+    margin-top: 0px;
+  }
+  .pokemon__stats {
+    width: 60%;
+  }
+
+  .pokemon__features {
+    flex-direction: row;
+    background-color: white;
+    padding: 50px 0px 0px 0px;
+  }
+
+  .pokemon__abilities ul li,
+  .pokemon__type ul li {
+    font-size: 18px;
+  }
+  .pokemon__movements ul li {
+    padding: 16px 32px;
+  }
+  .pokemon__card__avatar {
+    position: relative;
+    width: 100%;
+    left: 5%;
+    top: 15px;
+  }
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}

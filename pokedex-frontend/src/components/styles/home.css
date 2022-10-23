@@ -1,0 +1,197 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.pokeball__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.pokeball {
+  max-width: 100px;
+  margin: 0 0 30px 0;
+  transform: rotate(-20deg);
+  cursor: pointer;
+}
+
+/* Pokeball*/
+
+.clickMe {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 7px 5px 6px black;
+  animation: shake 0.5s infinite;
+  position: absolute;
+  top: 30px;
+  right: -110px;
+}
+
+.pokeball {
+  animation-delay: 0.5s;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: ball;
+  animation-duration: 4s;
+  filter: saturate(80%);
+}
+
+.pokeball:hover {
+  transform: scale(1.2) rotate(30deg);
+  transition: all 0.3s;
+}
+
+.pokeball:active {
+  transform: scale(1.4) rotate(0deg);
+  transition: all 0.3s;
+}
+
+.pokeball::after {
+  content: "Click me!";
+  position: absolute;
+  top: 0px;
+  font-size: 20px;
+}
+/*rest of the code */
+
+.home__img {
+  margin: 0 auto 40px;
+  max-width: 700px;
+}
+.home__title {
+  color: #fe1936;
+  margin-bottom: 5px;
+  text-shadow: 2px 1px 3px black;
+}
+.home__form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 10px;
+}
+.home__description {
+  margin-bottom: 30px;
+  color: rgba(0, 0, 0, 0.916);
+  font-weight: 700;
+}
+
+.home__input {
+  border-radius: 5px 0 0 5px;
+  display: block;
+  padding: 15px 25px;
+  border: 0;
+  width: min-content;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 70px;
+  color: rgba(10, 10, 10, 0.24);
+}
+.home__input::placeholder {
+  color: #d3d3d3;
+}
+.home__btn {
+  border-radius: 0 5px 5px 0;
+  padding: 15px 25px;
+  border: none;
+  background-color: #fe1936;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 70px;
+}
+.home__btn:hover {
+  filter: brightness(1.1);
+}
+
+/* The animation code */
+@keyframes ball {
+  0% {
+    left: 0px;
+    top: -10px;
+    transform: rotate(10deg);
+  }
+  5% {
+    transform: rotate(-0.25turn);
+    filter: brightness(0.15);
+  }
+  25% {
+    left: -200px;
+    top: 0px;
+    filter: brightness(4.5);
+  }
+  50% {
+    left: 150px;
+    top: 200px;
+    filter: brightness(0.15);
+  }
+  55% {
+    transform: rotate(3.142rad);
+    filter: brightness(4.5);
+  }
+  62% {
+    transform: rotate(90deg);
+    transition: all 1s ease;
+    filter: brightness(0.15);
+  }
+  65% {
+    transform: rotate(-0.25turn);
+    filter: brightness(4.5);
+  }
+  75% {
+    left: 0px;
+    top: 300px;
+    filter: brightness(0.15);
+  }
+  80% {
+    transform: rotate(3.142rad);
+    filter: brightness(4.5);
+  }
+  92% {
+    transform: rotate(90deg);
+    transition: all 1s ease;
+    filter: brightness(0.15);
+  }
+  95% {
+    left: 0px;
+    top: 0px;
+    transform: rotate(10deg);
+    filter: brightness(4.5);
+  }
+  96% {
+    left: 10px;
+    filter: brightness(0.05);
+  }
+  97% {
+    left: -10px;
+    transform: rotate(-0.15turn);
+    filter: brightness(3.5);
+  }
+  96% {
+    left: 10px;
+  }
+  96% {
+    left: -10px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+    transform: rotate(0);
+    filter: brightness(1);
+  }
+}
+
+@media (max-width: 600px) {
+  .clickMe {
+    font-size: 15px;
+    top: 30px;
+    right: -80px;
+  }
+}
