@@ -215,7 +215,7 @@ Pokemons are resources available to be seen to anyone, any user can create a Pok
 
 #### Example Pokemon
 
-`````JSON
+````JSON
 // All properties are REQUIRED inputs.
 
 {
@@ -238,7 +238,7 @@ Pokemons are resources available to be seen to anyone, any user can create a Pok
 
 First, run the development server:
 
-````bash
+```bash
 # Clone Repository
 $ git clone https://github.com/joseandresgavilanes/pokedex-fullstack.git
 # Go to server folder
@@ -285,4 +285,3 @@ Contributions are what make the open source community such an amazing place to b
 [![Gmail Badge](https://img.shields.io/badge/-joseandresgavilanes2012@gmail.com-4682B4?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:joseandresgavilanes2012@gmail.com)](mailto:joseandresgavilanes2012@gmail.com)
 
 s
-`````
