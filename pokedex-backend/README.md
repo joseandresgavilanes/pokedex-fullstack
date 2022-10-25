@@ -13,8 +13,10 @@
   <a href="#contribution">Contribution</a> |
   <a href="#author">Author</a> |
 </p>
+
 ---
-**NOTE:** This is a companion to a React Based Web-App currently in development ([See here for site](https://fantastic-naiad-78a9d5.netlify.app/)).
+
+**NOTE:** This is a companion to a React Based Web-App currently in development (https://fantastic-naiad-78a9d5.netlify.app/).
 This API is built using Node.js, Express and a PostgreSQL Database.
 Pokedex API seeks to fufill the functional support of apps that require user authentication to access Pokemons and Types creation functionalities.
 The API also accesses information about pokemon like basic stats and description [pokeapi.co](https://pokeapi.co/).
@@ -24,23 +26,6 @@ To access an endpoint simply append an endpoint to the base url.
 For instance to access the `/pokemons` endpoint the full url will look like this:
 
 `https://poke-team-node.herokuapp.com/teams/all`
-
-## 🚀 Getting Started
-
-First, run the development server:
-
-```bash
-# Clone Repository
-$ git clone https://github.com/joseandresgavilanes/pokedex-fullstack.git
-# Go to server folder
-$ cd pokedex-backend
-# Install Dependencies
-$ npm i
-# Complete you .env file (Use example.env as a guide)
-# Run Aplication
-$ npm run dev
-
-```
 
 ---
 
@@ -96,7 +81,24 @@ $ npm run dev
 }
 ```
 
-<!-- NEW TEXT -->
+---
+
+## 🚀 Getting Started
+
+First, run the development server:
+
+```bash
+# Clone Repository
+$ git clone https://github.com/joseandresgavilanes/pokedex-fullstack.git
+# Go to server folder
+$ cd pokedex-backend
+# Install Dependencies
+$ npm i
+# Complete you .env file (Use example.env as a guide)
+# Run Aplication
+$ npm run dev
+
+```
 
 ---
 
@@ -282,9 +284,3 @@ Contributions are what make the open source community such an amazing place to b
 <br />
 [![Linkedin Badge](https://img.shields.io/badge/-Jose-1692B4?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/kelwyoliveira/)](https://www.linkedin.com/in/jose-andres-gavilanes-2954691b5/)
 [![Gmail Badge](https://img.shields.io/badge/-joseandresgavilanes2012@gmail.com-4682B4?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:joseandresgavilanes2012@gmail.com)](mailto:joseandresgavilanes2012@gmail.com)
-
-s
-
-```
-
-```

@@ -7,10 +7,6 @@
 </h3>
 
 <p align="center">
-  Final result: ([See here for site](https://fantastic-naiad-78a9d5.netlify.app/))
-</p>
-
-<p align="center">
   <a href="#about-the-project">About The Project</a> |
   <a href="#layout">Layout</a> |
   <a href="#technologies">Technologies</a> |
@@ -20,7 +16,8 @@
 </p>
 
 <h4 align="center">
-	🚧 Status: Building 🚀  🚧
+	🚧 Status: Building  <p align="center">(https://fantastic-naiad-78a9d5.netlify.app/)</p> 🚀  🚧
+
 </h4>
 </br>
 
@@ -44,9 +41,13 @@
 <h2 id="layout" >🎨  Layout </h2>
 
 The Pokédex preview:
-
-![screen home](/src/assets/screen01.png)
-![screen home](/src/assets/screen02.png)
+![screen home](../pokedex-frontend//public/images/BuildingProcess/loader.png)
+![screen home](../pokedex-frontend//public/images/BuildingProcess/home.png)
+![screen home](../pokedex-frontend//public/images/BuildingProcess/pokedexArt.png)
+![screen home](../pokedex-frontend//public/images/BuildingProcess/pokemons.png)
+![screen home](../pokedex-frontend//public/images/BuildingProcess/searchByName.png)
+![screen home](../pokedex-frontend//public/images/BuildingProcess/categories.png)
+![screen home](../pokedex-frontend//public/images/BuildingProcess/pokemonInfo.png)
 
 ---
 
