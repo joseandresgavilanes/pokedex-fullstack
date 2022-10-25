@@ -1,13 +1,43 @@
+<div align="center">
+  <img alt="logo"  src="../pokedex-frontend/public/images/Home/smiley.png">
+</div>
+
 # Poke API
 
+<h3 align="center">
+    Code challenge based on the famous Pokémon anime! With NodeJs, Express, JWT and Swagger 💻🚀
+</h3>
+
+<p align="center">
+  <a href="#about-the-project">About The Project</a> |
+  <a href="#pokemon-example">Pokemon Example</a> |
+  <a href="#layout">Layout</a> |
+  <a href="#technologies">Technologies</a> |
+  <a href="#contribution">Contribution</a> |
+  <a href="#author">Author</a> |
+  <a href="#license">License</a>
+</p>
+
+<h2 id="about-the-project" > ⏰📈 About The Project </h2>
+
 - Frontend Requirements:
-  ✔ Show 10 pokemon on the main page.
-  ✔ Have a search section (bar) by pokemon name.
-  ✔ Implement a button to show more details of the pokemon
-  ✔ Pressing the details button shows more information about the pokemon
-  selected.
-  ✔ The information to be displayed is optional, it must show at least 3 additional data.
-  ✔ Use of Routing for the previous point.
+
+  - ✔ Show 10 pokemon on the main page.
+  - ✔ Have a search section (bar) by pokemon name.
+  - ✔ Implement a button to show more details of the pokemon
+  - ✔ Pressing the details button shows more information about the pokemon
+    selected.
+  - ✔ The information to be displayed is optional, it must show at least 3 additional data.
+  - ✔ Use of Routing for the previous point.
+
+- Backend Requirements:
+  - ✔ Design the database for the Pokemon API, this will consist of the following attributes as a minimum (you ✔ can add more) Name, description, type, evolution, height, weight.
+  - ✔ Use the main HTTP methods: GET
+  - ✔ Required fields are name and description.
+  - ✔ All responses must be in JSON format.
+  - ✔ Use swagger for documentation
+
+<h2 id="pokemon-example" > 🎇 Pokemon example </h2>
 
 ```json
 {

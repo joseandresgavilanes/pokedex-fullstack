@@ -2,6 +2,8 @@
   <img alt="logo"  src="../pokedex-frontend/public/images/Home/smiley.png">
 </div>
 
+# Poke API
+
 <h3 align="center">
     Code challenge based on the famous Pokémon anime! With ReactJs, Javascript, Redux, SASS, Axios and ViteJS 💻🚀
 </h3>
@@ -36,12 +38,11 @@
 </br>
 
 <h2 id="about-the-project" > ⏰📈 About The Project </h2>
-
-✔ Show all Pokémons.
-✔ Show Pokémons by ID.
-✔ Show Pokémons by Category.
-✔ Show Pokémon's details.
-✔ Challenge developed in order to apply front-end knowledges
+- ✔ Show all Pokémons.
+- ✔ Show Pokémons by ID.
+- ✔ Show Pokémons by Category.
+- ✔ Show Pokémon's details.
+- ✔ Challenge developed in order to apply front-end knowledges
 using [PokéAPI](https://pokeapi.co/) - **The RESTful Pokémon API**.
 
 ## Next steps:
