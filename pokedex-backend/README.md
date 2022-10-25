@@ -3,7 +3,7 @@
 </div>
 
 <h3 align="center">
-    Code challenge based on the famous Pokémon anime! With NodeJs, Express, PostgreSQL JWT and Swagger 💻🚀
+    Code challenge based on the famous Pokémon anime! With NodeJs, Express and PostgreSQL 💻🚀
 </h3>
 
 <p align="center">
@@ -13,7 +13,7 @@
   <a href="#contribution">Contribution</a> |
   <a href="#author">Author</a> |
 </p>
-
+---
 **NOTE:** This is a companion to a React Based Web-App currently in development ([See here for site](https://fantastic-naiad-78a9d5.netlify.app/)).
 This API is built using Node.js, Express and a PostgreSQL Database.
 Pokedex API seeks to fufill the functional support of apps that require user authentication to access Pokemons and Types creation functionalities.
@@ -215,7 +215,7 @@ Pokemons are resources available to be seen to anyone, any user can create a Pok
 
 #### Example Pokemon
 
-````JSON
+`````JSON
 // All properties are REQUIRED inputs.
 
 {
@@ -230,7 +230,7 @@ Pokemons are resources available to be seen to anyone, any user can create a Pok
   "defense": 200,
   "speed": 200
 }
-```´
+```
 
 ---
 
@@ -238,7 +238,7 @@ Pokemons are resources available to be seen to anyone, any user can create a Pok
 
 First, run the development server:
 
-```bash
+````bash
 # Clone Repository
 $ git clone https://github.com/joseandresgavilanes/pokedex-fullstack.git
 # Go to server folder
@@ -285,3 +285,4 @@ Contributions are what make the open source community such an amazing place to b
 [![Gmail Badge](https://img.shields.io/badge/-joseandresgavilanes2012@gmail.com-4682B4?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:joseandresgavilanes2012@gmail.com)](mailto:joseandresgavilanes2012@gmail.com)
 
 s
+`````
