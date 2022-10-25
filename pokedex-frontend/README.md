@@ -2,8 +2,6 @@
   <img alt="logo"  src="../pokedex-frontend/public/images/Home/smiley.png">
 </div>
 
-# Poke API
-
 <h3 align="center">
     Code challenge based on the famous Pokémon anime! With ReactJs, Javascript, Redux, SASS, Axios and ViteJS 💻🚀
 </h3>
