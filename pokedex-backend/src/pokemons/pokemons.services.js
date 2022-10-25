@@ -1,10 +1,26 @@
 const pokemonControllers = require("./pokemons.controller");
+const { host } = require("../config");
 
 const getAllPokemons = (req, res) => {
+  //? localhost:3000/api/v1/pokemons?offset=0&limit=20
+  const offset = Number(req.query.offset) || 0;
+  //! const offset = req.query.offset ? req.query.offset : 0
+  const limit = Number(req.query.limit) || 10;
+  //? offset: donde inicia
+  //? limit: cantidad maxima de entidades a mostrar por pagina
+
+  const urlBase = `${host}/api/v1/pokemons`;
+
   pokemonControllers
-    .getAllPokemons()
+    .getAllPokemons(offset, limit)
     .then((data) => {
-      res.status(200).json(data);
+      res.status(200).json({
+        next: `${urlBase}?offset=${offset + limit}&limit=${limit}`,
+        prev: `${urlBase}`,
+        offset,
+        limit,
+        results: data,
+      });
     })
     .catch((err) => {
       res.status(400).json({ message: err.message });

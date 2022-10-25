@@ -4,8 +4,10 @@ const Pokemons = require("../models/pokemons.models");
 const Users = require("../models/users.models");
 const Types = require("../models/types.models");
 
-const getAllPokemons = async () => {
+const getAllPokemons = async (offset, limit) => {
   const data = await Pokemons.findAll({
+    offset: offset,
+    limit: limit,
     include: [
       {
         model: Users,

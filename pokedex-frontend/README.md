@@ -3,7 +3,7 @@
 </div>
 
 <h3 align="center">
-    Code challenge based on the famous Pokémon anime! With ReactJs, Javascript, Redux, SASS, Axios and ViteJS 💻🚀
+    Code challenge based on the famous Pokémon anime! With ReactJs, Redux, SASS, Axios and ViteJS 💻🚀
 </h3>
 
 <p align="center">
@@ -15,10 +15,19 @@
   <a href="#license">License</a>
 </p>
 
+</br>
+
+---
+
 <h4 align="center">
 	🚧 Status: Building 🚀  🚧
+
   <p align="center">https://fantastic-naiad-78a9d5.netlify.app/</p>
+
 </h4>
+
+---
+
 </br>
 
 <h2 id="about-the-project" > ⏰📈 About The Project </h2>
@@ -60,7 +69,7 @@ $ npm run dev
 The Pokédex preview:
 **NOTE:** In each image, there will be a short review of how the process was to build the result seen.
 
-#### Loader
+### Loader
 
 ![screen home](../pokedex-frontend//public/images/BuildingProcess/loader.png)
 
@@ -71,69 +80,72 @@ The Pokédex preview:
 
 ---
 
-#### Home
+### Home
 
 ![screen home](../pokedex-frontend//public/images/BuildingProcess/home.png)
 
-- It was planned to do something that motivates the user to interact with the site and arouses their interest from the beginning.
-- Used SASS and some models to get an idea of ​​what I wanted to create as a final result.
-- Added unique touches like sender and recipient on one side of the box.
-- Added the possibility that the user could see Pikachu, the most famous pokemon, by clicking on the top of the box.
+- I wanted to continue visually motivating the user and do something that activates their visual senses.
+- An image of a pokeball was used and with animations, it could move across the screen.
+- Security was added to the routes so that the user would necessarily give us their name so that they could view the rest of the site. Redux was used to store the name.
+- Added a header and footer with their respective pokeballs and characteristic Pokemon colors.
 
 ---
 
-#### PokedexArt
+### PokedexArt
 
 ![screen home](../pokedex-frontend//public/images/BuildingProcess/pokedexArt.png)
 
-- It was planned to do something that motivates the user to interact with the site and arouses their interest from the beginning.
-- Used SASS and some models to get an idea of ​​what I wanted to create as a final result.
-- Added unique touches like sender and recipient on one side of the box.
-- Added the possibility that the user could see Pikachu, the most famous pokemon, by clicking on the top of the box.
+- I wanted to close with a flourish and completely surprise the user, making their experience completely memorable.
+- A pokedex based on a model presented in the Anime was drawn with SASS. It was about being as faithful as possible.
+- Pixelart was used to create a series of pixel animations so that the user has an idea of ​​what the site is about, had a contrast of designs and to be able to give a personal brand with amazing drawns.
+- On the pokedex screen, added a typing animation to welcome the user.
+- Added a button to close the pokedex, which in this case worked as a modal. Another button was added so that the user could visit the creator's Linkedin.
 
 ---
 
-#### Pokemons
+### Pokemons
 
 ![screen home](../pokedex-frontend//public/images/BuildingProcess/pokemons.png)
 
-- It was planned to do something that motivates the user to interact with the site and arouses their interest from the beginning.
-- Used SASS and some models to get an idea of ​​what I wanted to create as a final result.
-- Added unique touches like sender and recipient on one side of the box.
-- Added the possibility that the user could see Pikachu, the most famous pokemon, by clicking on the top of the box.
+- I wanted to make a user friendly entry and if you are a fan of pokemon, to be able to remember past memories using a card design similar to the traditional game.
+- Redux was used to display the name that the user has previously passed to us.
+- The card showed the image of the pokemon, its type and all the necessary stats to be able to do a pokemon battle.
+- Added two icons, one to represent the Kruger Corp brand and the other to allow the user to access more information about the pokemon.
+- Used axios to query the PokeAPI.
+- In this case, the main react tool, the components, was used to make the work easier and thanks to the information from the PokeAPI, the card could be programmed only once and all the available pokemons were displayed.
+- The color of each pokemon card depends on its typo.
 
 ---
 
-#### SearchBar
+### SearchBar
 
 ![screen home](../pokedex-frontend//public/images/BuildingProcess/searchByName.png)
 
-- It was planned to do something that motivates the user to interact with the site and arouses their interest from the beginning.
-- Used SASS and some models to get an idea of ​​what I wanted to create as a final result.
-- Added unique touches like sender and recipient on one side of the box.
-- Added the possibility that the user could see Pikachu, the most famous pokemon, by clicking on the top of the box.
+- Here the user could enter the name of his favorite pokemon.
+- User input was received and it was compared if any pokemon matched within the database.
+- If the pokemon existed, the user could see just one specific pokemon card and its information.
+- An amazing search bar was made.
 
 ---
 
-#### Categories
+### Categories
 
 ![screen home](../pokedex-frontend//public/images/BuildingProcess/categories.png)
 
-- It was planned to do something that motivates the user to interact with the site and arouses their interest from the beginning.
-- Used SASS and some models to get an idea of ​​what I wanted to create as a final result.
-- Added unique touches like sender and recipient on one side of the box.
-- Added the possibility that the user could see Pikachu, the most famous pokemon, by clicking on the top of the box.
+- Here the user could select any of the pokemon types that the PokeAPI gave us, again Axios was used for this.
+- The user's selection was received and later he/she could see all the cards of the pokemons that had that type.
 
 ---
 
-#### Pokemon's info
+### Pokemon's info
 
 ![screen home](../pokedex-frontend//public/images/BuildingProcess/pokemonInfo.png)
+![screen home](../pokedex-frontend//public/images/BuildingProcess/movements.png)
 
-- It was planned to do something that motivates the user to interact with the site and arouses their interest from the beginning.
-- Used SASS and some models to get an idea of ​​what I wanted to create as a final result.
-- Added unique touches like sender and recipient on one side of the box.
-- Added the possibility that the user could see Pikachu, the most famous pokemon, by clicking on the top of the box.
+- Here the user can see more information about the pokemon.
+- The stats were made in the form of a bar so that they were filled with the info of the pokemon, the maximum in this case was 200.
+- The moves that an specific pokemon had were shown.
+- The colors depended on the type of the pokemon.
 
 ---
 
@@ -164,7 +176,7 @@ Contributions are what make the open source community such an amazing place to b
 
 <h2 id="author"> 💻 Author </h2>
 
-<img style="border-radius: 50% !important;" src="https://kelwys.github.io/assets/images/avatar.png" width="100px;" alt="photo author"/>
+<img style="border-radius: 50% !important;" src="../pokedex-frontend/public/images/Home/pepe.jpg" width="100px;" alt="photo author"/>
 
 <sub><b>José Andrés Gavilanes - Smiley</b></sub></a> <a href="https://www.linkedin.com/in/jose-andres-gavilanes-2954691b5/" title="jose`s linkedin">🚀</a>
 <br />

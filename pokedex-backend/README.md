@@ -20,12 +20,16 @@
 This API is built using Node.js, Express and a PostgreSQL Database.
 Pokedex API seeks to fufill the functional support of apps that require user authentication to access Pokemons and Types creation functionalities.
 The API also accesses information about pokemon like basic stats and description [pokeapi.co](https://pokeapi.co/).
-Aditionally **_ALL_** endpoints of the API will use [https://poke-team-node.herokuapp.com/](https://poke-team-node.herokuapp.com/) as a base url.
+Aditionally **_ALL_** endpoints of the API will use ------- as a base url.
+
+<!-- [https://poke-team-node.herokuapp.com/](https://poke-team-node.herokuapp.com/) -->
 
 To access an endpoint simply append an endpoint to the base url.
 For instance to access the `/pokemons` endpoint the full url will look like this:
 
-`https://poke-team-node.herokuapp.com/teams/all`
+`------`
+
+<!-- `https://poke-team-node.herokuapp.com/teams/all` -->
 
 ---
 
@@ -278,7 +282,7 @@ Contributions are what make the open source community such an amazing place to b
 
 <h2 id="author"> 💻 Author </h2>
 
-<img style="border-radius: 50% !important;" src="https://kelwys.github.io/assets/images/avatar.png" width="100px;" alt="photo author"/>
+<img style="border-radius: 50% !important;" src="../pokedex-frontend/public/images/Home/pepe.jpg" width="100px;" alt="photo author"/>
 
 <sub><b>José Andrés Gavilanes - Smiley</b></sub></a> <a href="https://www.linkedin.com/in/jose-andres-gavilanes-2954691b5/" title="jose`s linkedin">🚀</a>
 <br />
