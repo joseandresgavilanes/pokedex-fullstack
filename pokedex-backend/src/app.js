@@ -1,6 +1,8 @@
 //? Dependencies
 const express = require("express");
 const db = require("./utils/database");
+const swaggerUi = require("swagger-ui-express");
+const swaggerDocument = require("./swagger.json");
 
 //? Files
 const { port } = require("./config");
@@ -45,6 +47,7 @@ app.use("/api/v1/users", userRouter);
 app.use("/api/v1/auth", authRouter);
 app.use("/api/v1/types", typeRouter);
 app.use("/api/v1/pokemons", pokemonsRouter);
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 app.listen(port, () => {
   console.log(`Server started at port ${port}`);

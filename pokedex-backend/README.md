@@ -1,34 +1,39 @@
-# Blog API
+# Poke API
 
-- Front:
-  - Obtener todas las publicaciónes
-  - Obtener una en especifico
-  - Obtener todas las categorias
-  - Obtener todos los post de una categoria en especifico
-  - Obtener todos los posts que he creado
-  - Obtener todos los posts de un usuario en especifico
-  - Podemos paginar los posts
-  - Acciones de CRUD sobre Posts
-  - Crear categorias
+- Frontend Requirements:
+  ✔ Show 10 pokemon on the main page.
+  ✔ Have a search section (bar) by pokemon name.
+  ✔ Implement a button to show more details of the pokemon
+  ✔ Pressing the details button shows more information about the pokemon
+  selected.
+  ✔ The information to be displayed is optional, it must show at least 3 additional data.
+  ✔ Use of Routing for the previous point.
 
 ```json
 {
   "total": 68,
-  "prev": "localhost:9000/api/v1/posts?start=51&limit=60",
-  "next": "localhost:9000/api/v1/posts?start=61&limit=68",
+  "prev": "localhost:9000/api/v1/pokemons?start=51&limit=60",
+  "next": "localhost:9000/api/v1/pokemons?start=61&limit=68",
   "data": [
     {
       "id": "a860986d-2570-4f39-afe6-c30fb74f350e",
-      "title": "ejemplo",
-      "content": "lorem ipsum",
-      "createdBy": {
+      "name": "K-maleon",
+      "description": "Kruger Corp pet",
+      "evolution": "",
+      "height": 10,
+      "weight": 20,
+      "image": "https://krugercorp.com/wp-content/uploads/2022/09/Kmaleon-1-567x1024.png",
+      "hp": 200,
+      "attack": 200,
+      "defense": 200,
+      "speed": 200,
+      "userId": {
         "id": "5b7cc060-3597-4946-bb9b-3a54e2098f82",
-        "name": "Sahid",
-        "email": "sahid.kick@academlo.com"
+        "name": "Ernesto Kruger"
       },
-      "category": {
+      "typeId": {
         "id": 4,
-        "name": "Tecnologia"
+        "name": "K-extraordinary"
       }
     }
   ]
@@ -37,15 +42,15 @@
 
 /api/v1
 
-/users - /me - /me/posts - /me/posts/:id - /:id
+/users - /me - /me/pokemons - /me/pokemons/:id - /:id
 
-/categories - /:id - /:id/posts
+/types - /:id - /:id/types
 
-/posts - /:id
+/types - /:id
 
 <!-- NEW TEXT -->
 
-# Poke-Team API
+---
 
 **NOTE:** This is a companion to a React Based Web-App currently in development ([See here for site](https://econclass.github.io/poketeamreact/)).
 This API is built using Node.js, Express and a Mongo Database.
