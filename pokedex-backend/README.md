@@ -25,6 +25,23 @@ For instance to access the `/pokemons` endpoint the full url will look like this
 
 `https://poke-team-node.herokuapp.com/teams/all`
 
+## 🚀 Getting Started
+
+First, run the development server:
+
+```bash
+# Clone Repository
+$ git clone https://github.com/joseandresgavilanes/pokedex-fullstack.git
+# Go to server folder
+$ cd pokedex-backend
+# Install Dependencies
+$ npm i
+# Complete you .env file (Use example.env as a guide)
+# Run Aplication
+$ npm run dev
+
+```
+
 ---
 
 <h2 id="about-the-project" > ⏰📈 About The Project </h2>
@@ -215,7 +232,7 @@ Pokemons are resources available to be seen to anyone, any user can create a Pok
 
 #### Example Pokemon
 
-````JSON
+```JSON
 // All properties are REQUIRED inputs.
 
 {
@@ -231,24 +248,6 @@ Pokemons are resources available to be seen to anyone, any user can create a Pok
   "speed": 200
 }
 ```
-
----
-
-## 🚀 Getting Started
-
-First, run the development server:
-
-```bash
-# Clone Repository
-$ git clone https://github.com/joseandresgavilanes/pokedex-fullstack.git
-# Go to server folder
-$ cd pokedex-backend
-# Install Dependencies
-$ npm i
-# Complete you .env file (Use example.env as a guide)
-# Run Aplication
-$ npm run dev
-````
 
 ---
 
@@ -285,3 +284,7 @@ Contributions are what make the open source community such an amazing place to b
 [![Gmail Badge](https://img.shields.io/badge/-joseandresgavilanes2012@gmail.com-4682B4?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:joseandresgavilanes2012@gmail.com)](mailto:joseandresgavilanes2012@gmail.com)
 
 s
+
+```
+
+```
