@@ -7,18 +7,7 @@
 </h3>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/kelwys/pokedex?color=%2304D361">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/kelwys/pokedex">
-
-  <a href="https://github.com/kelwys/pokedex/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/kelwys/pokedex">
-  </a>
-
-   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/kelwys/pokedex/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/kelwys/pokedex?style=social">
-  </a>
+  Final result: ([See here for site](https://fantastic-naiad-78a9d5.netlify.app/))
 </p>
 
 <p align="center">
@@ -36,12 +25,13 @@
 </br>
 
 <h2 id="about-the-project" > ⏰📈 About The Project </h2>
-- ✔ Show all Pokémons.
-- ✔ Show Pokémons by ID.
-- ✔ Show Pokémons by Category.
-- ✔ Show Pokémon's details.
-- ✔ Challenge developed in order to apply front-end knowledges
-using [PokéAPI](https://pokeapi.co/) - **The RESTful Pokémon API**.
+- You will be able to:
+  - ✔ Show all Pokémons.
+  - ✔ Show Pokémons by ID.
+  - ✔ Show Pokémons by Category.
+  - ✔ Show Pokémon's details.
+  - ✔ Challenge developed in order to apply front-end knowledges
+  using [PokéAPI](https://pokeapi.co/) - **The RESTful Pokémon API**.
 
 ## Next steps:
 

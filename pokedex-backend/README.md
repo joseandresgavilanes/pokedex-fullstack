@@ -3,27 +3,25 @@
 </div>
 
 <h3 align="center">
-    Code challenge based on the famous Pokémon anime! With NodeJs, Express, JWT and Swagger 💻🚀
+    Code challenge based on the famous Pokémon anime! With NodeJs, Express, PostgreSQL JWT and Swagger 💻🚀
 </h3>
 
 <p align="center">
   <a href="#about-the-project">About The Project</a> |
   <a href="#pokemon-example">Pokemon Example</a> |
-  <a href="#layout">Layout</a> |
   <a href="#technologies">Technologies</a> |
   <a href="#contribution">Contribution</a> |
   <a href="#author">Author</a> |
-  <a href="#license">License</a>
 </p>
 
-**NOTE:** This is a companion to a React Based Web-App currently in development ([See here for site](https://econclass.github.io/poketeamreact/)).
-This API is built using Node.js, Express and a Mongo Database.
-Poke-Team API seeks to fufill the functional support of apps that require user authentication to access Pokemon Team creation functionalities.
-The API also accesses information about pokemon, natures and held items from [pokeapi.co](https://pokeapi.co/).
+**NOTE:** This is a companion to a React Based Web-App currently in development ([See here for site](https://fantastic-naiad-78a9d5.netlify.app/)).
+This API is built using Node.js, Express and a PostgreSQL Database.
+Pokedex API seeks to fufill the functional support of apps that require user authentication to access Pokemons and Types creation functionalities.
+The API also accesses information about pokemon like basic stats and description [pokeapi.co](https://pokeapi.co/).
 Aditionally **_ALL_** endpoints of the API will use [https://poke-team-node.herokuapp.com/](https://poke-team-node.herokuapp.com/) as a base url.
 
 To access an endpoint simply append an endpoint to the base url.
-For instance to access the `/teams/all` endpoint the full url will look like this:
+For instance to access the `/pokemons` endpoint the full url will look like this:
 
 `https://poke-team-node.herokuapp.com/teams/all`
 
@@ -123,6 +121,8 @@ Although this api provisions users, some endpoints do not require a user to be l
 }
 ```
 
+---
+
 ### Users Endpoints
 
 **NOTE:** That ":id" refers to a user account's unique identifier in the database.
@@ -192,6 +192,8 @@ Types are resources available to be seen to anyone, any user can create a Type.
 | PUT       | /api/team/:teamId         | Updates team info like name and description, but not pokemon inside the team. |
 | DELETE    | /api/team/:teamId         | Deletes team from database.                                                   | -->
 
+---
+
 ## Pokemons Functionalities
 
 Pokemons are resources available to be seen to anyone, any user can create a Pokemon.
@@ -213,7 +215,7 @@ Pokemons are resources available to be seen to anyone, any user can create a Pok
 
 #### Example Pokemon
 
-```JSON
+````JSON
 // All properties are REQUIRED inputs.
 
 {
@@ -228,4 +230,58 @@ Pokemons are resources available to be seen to anyone, any user can create a Pok
   "defense": 200,
   "speed": 200
 }
-```
+```´
+
+---
+
+## 🚀 Getting Started
+
+First, run the development server:
+
+```bash
+# Clone Repository
+$ git clone https://github.com/joseandresgavilanes/pokedex-fullstack.git
+# Go to server folder
+$ cd pokedex-backend
+# Install Dependencies
+$ npm i
+# Complete you .env file (Use example.env as a guide)
+# Run Aplication
+$ npm run dev
+````
+
+---
+
+<h2 id="technologies"> 🛠 Technologies </h2>
+
+The following tools were used in the construction of the project:
+
+- **[NodeJS](https://nodejs.org/en/)**
+- **[PostgreSQL](https://www.postgresql.org/)**
+- **[Express](https://expressjs.com/)**
+- **[JWT](https://jwt.io/)**
+
+---
+
+<h2 id="contribution"> 💪 Contribution </h2>
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+<h2 id="author"> 💻 Author </h2>
+
+<img style="border-radius: 50% !important;" src="https://kelwys.github.io/assets/images/avatar.png" width="100px;" alt="photo author"/>
+
+<sub><b>José Andrés Gavilanes - Smiley</b></sub></a> <a href="https://www.linkedin.com/in/jose-andres-gavilanes-2954691b5/" title="jose`s linkedin">🚀</a>
+<br />
+[![Linkedin Badge](https://img.shields.io/badge/-Jose-1692B4?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/kelwyoliveira/)](https://www.linkedin.com/in/jose-andres-gavilanes-2954691b5/)
+[![Gmail Badge](https://img.shields.io/badge/-joseandresgavilanes2012@gmail.com-4682B4?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:joseandresgavilanes2012@gmail.com)](mailto:joseandresgavilanes2012@gmail.com)
+
+s
