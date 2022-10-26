@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="#about-the-project">About The Project</a> |
+  <a href="#swagger">Swagger</a> |
   <a href="#pokemon-example">Pokemon Example</a> |
   <a href="#technologies">Technologies</a> |
   <a href="#contribution">Contribution</a> |
@@ -52,9 +53,10 @@ For instance to access the `/pokemons` endpoint the full url will look like this
 
 ```json
 {
-  "next": "http://localhost:3000/api/v1/pokemons?offset=10&limit=10",
+  "next": "http://localhost:3000/api/v1/pokemons?offset=2&limit=10",
   "prev": "http://localhost:3000/api/v1/pokemons",
-  "offset": 0,
+  "items": 1,
+  "offset": 2,
   "limit": 10,
   "data": [
     {
@@ -81,6 +83,17 @@ For instance to access the `/pokemons` endpoint the full url will look like this
   ]
 }
 ```
+
+---
+
+<h2 id="swagger"> ♦ Swagger </h2>
+
+**NOTE:** This is the swagger documentation for this PokeAPI.
+
+To access an endpoint simply append an endpoint to the base url.
+For instance to access the `/api-docs` endpoint the full url will look like this:
+
+`http://localhost:3000/api-docs`
 
 ---
 
@@ -193,6 +206,12 @@ Types are resources available to be seen to anyone, any user can create a Type.
 | GET       | /types/:id          | Returns one type from the database according to its id.       |
 | GET       | /types/:id/pokemons | Returns all pokemons from the database according to its type. |
 
+### Types Endpoints (Requires User Login)
+
+| HTTP Verb | Endpoint | Function                                     |
+| --------- | -------- | -------------------------------------------- |
+| POST      | /types   | Creates a new Type but requires a type name. |
+
 #### Example Type
 
 ```JSON
@@ -202,12 +221,6 @@ Types are resources available to be seen to anyone, any user can create a Type.
   "name": "grass",
 }
 ```
-
-### Types Endpoints (Requires User Login)
-
-| HTTP Verb | Endpoint | Function                                     |
-| --------- | -------- | -------------------------------------------- |
-| POST      | /types   | Creates a new Type but requires a type name. |
 
 ---
 
