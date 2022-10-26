@@ -8,8 +8,9 @@
 
 <p align="center">
   <a href="#about-the-project">About The Project</a> |
-  <a href="#swagger">Swagger</a> |
   <a href="#pokemon-example">Pokemon Example</a> |
+  <a href="#swagger">Swagger</a> |
+  <a href="#endpoints">Endpoints</a> |
   <a href="#technologies">Technologies</a> |
   <a href="#contribution">Contribution</a> |
   <a href="#author">Author</a> |
@@ -113,6 +114,10 @@ $ npm i
 $ npm run dev
 
 ```
+
+---
+
+<h2 id="endpoints" align="center" > 🔗🔌Endpoints </h2>
 
 ---
 
