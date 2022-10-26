@@ -20,16 +20,12 @@
 This API is built using Node.js, Express and a PostgreSQL Database.
 Pokedex API seeks to fufill the functional support of apps that require user authentication to access Pokemons and Types creation functionalities.
 The API also accesses information about pokemon like basic stats and description [pokeapi.co](https://pokeapi.co/).
-Aditionally **_ALL_** endpoints of the API will use ------- as a base url.
-
-<!-- [https://poke-team-node.herokuapp.com/](https://poke-team-node.herokuapp.com/) -->
+Aditionally **_ALL_** endpoints of the API will use http://localhost:3000/api/v1 as a base url.
 
 To access an endpoint simply append an endpoint to the base url.
 For instance to access the `/pokemons` endpoint the full url will look like this:
 
-`------`
-
-<!-- `https://poke-team-node.herokuapp.com/teams/all` -->
+`http://localhost:3000/api/v1/pokemons`
 
 ---
 
@@ -56,9 +52,10 @@ For instance to access the `/pokemons` endpoint the full url will look like this
 
 ```json
 {
-  "total": 68,
-  "prev": "localhost:9000/api/v1/pokemons?start=51&limit=60",
-  "next": "localhost:9000/api/v1/pokemons?start=61&limit=68",
+  "next": "http://localhost:3000/api/v1/pokemons?offset=10&limit=10",
+  "prev": "http://localhost:3000/api/v1/pokemons",
+  "offset": 0,
+  "limit": 10,
   "data": [
     {
       "id": "a860986d-2570-4f39-afe6-c30fb74f350e",
@@ -190,10 +187,11 @@ Types are resources available to be seen to anyone, any user can create a Type.
 
 ### Types Endpoints (No Account Required)
 
-| HTTP Verb | Endpoint   | Function                                                |
-| --------- | ---------- | ------------------------------------------------------- |
-| GET       | /types     | Returns a result of all types in the database.          |
-| GET       | /types/:id | Returns one type from the database according to its id. |
+| HTTP Verb | Endpoint            | Function                                                      |
+| --------- | ------------------- | ------------------------------------------------------------- |
+| GET       | /types              | Returns a result of all types in the database.                |
+| GET       | /types/:id          | Returns one type from the database according to its id.       |
+| GET       | /types/:id/pokemons | Returns all pokemons from the database according to its type. |
 
 #### Example Type
 
@@ -210,10 +208,6 @@ Types are resources available to be seen to anyone, any user can create a Type.
 | HTTP Verb | Endpoint | Function                                     |
 | --------- | -------- | -------------------------------------------- |
 | POST      | /types   | Creates a new Type but requires a type name. |
-
-<!-- | PATCH     | /api/team/:teamId/pokemon | Modifies what pokemon are inside the team.                                    |
-| PUT       | /api/team/:teamId         | Updates team info like name and description, but not pokemon inside the team. |
-| DELETE    | /api/team/:teamId         | Deletes team from database.                                                   | -->
 
 ---
 

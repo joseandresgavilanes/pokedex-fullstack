@@ -16,7 +16,6 @@ const Types = db.define(
     },
   },
   {
-    //? Evita que sequelize agregue las columnas de createdAt y updatedAt
     timestamps: false,
   }
 );

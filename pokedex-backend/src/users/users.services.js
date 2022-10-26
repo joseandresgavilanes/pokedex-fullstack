@@ -36,7 +36,6 @@ const registerUser = (req, res) => {
   } = req.body;
 
   if (firstName && lastName && email && password && phone && birthday) {
-    //? Ejecutamos el controller
     usersControllers
       .createUser({
         firstName,
@@ -144,13 +143,14 @@ const patchMyUser = (req, res) => {
 const deleteMyUser = (req, res) => {
   const id = req.user.id;
 
-  usersControllers.updateUser(id, { status: "inactive" })
-      .then(() => {
-        res.status(200).json({ message: `Your user was deleted succesfully!` });
-      })
-      .catch((err) => {
-        res.status(400).json({ message: err.message });
-      });
+  usersControllers
+    .updateUser(id, { status: "inactive" })
+    .then(() => {
+      res.status(200).json({ message: `Your user was deleted succesfully!` });
+    })
+    .catch((err) => {
+      res.status(400).json({ message: err.message });
+    });
 };
 
 module.exports = {
@@ -161,5 +161,5 @@ module.exports = {
   deleteUser,
   getMyUser,
   patchMyUser,
-  deleteMyUser
+  deleteMyUser,
 };
