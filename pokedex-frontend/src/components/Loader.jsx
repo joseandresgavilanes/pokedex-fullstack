@@ -4,43 +4,43 @@ import "../components/styles/Loader.scss";
 const Loader = () => {
   return (
     <div className="box__container">
-      <div class="box">
-        <div class="face bottom"></div>
-        <div class="face back"></div>
-        <div class="face right"></div>
-        <div class="face left">
-          <div class="icons">
-            <div class="umbrella"></div>
-            <div class="orientation">
-              <div class="base"></div>
+      <div className="box">
+        <div className="face bottom"></div>
+        <div className="face back"></div>
+        <div className="face right"></div>
+        <div className="face left">
+          <div className="icons">
+            <div className="umbrella"></div>
+            <div className="orientation">
+              <div className="base"></div>
             </div>
-            <div class="glass"></div>
+            <div className="glass"></div>
           </div>
         </div>
-        <div class="face front">
-          <div class="recycled">
-            <div class="arrow"></div>
-            <div class="arrow"></div>
-            <div class="arrow"></div>
+        <div className="face front">
+          <div className="recycled">
+            <div className="arrow"></div>
+            <div className="arrow"></div>
+            <div className="arrow"></div>
           </div>
-          <div class="label"></div>
-          <div class="ball"></div>
+          <div className="label"></div>
+          <div className="ball"></div>
         </div>
-        <div class="face top">
-          <div class="cover-back"></div>
-          <div class="cover-right"></div>
-          <div class="cover-left"></div>
-          <div class="cover-front"></div>
+        <div className="face top">
+          <div className="cover-back"></div>
+          <div className="cover-right"></div>
+          <div className="cover-left"></div>
+          <div className="cover-front"></div>
         </div>
-        <div class="content">
-          <div class="pikachu">
-            <div class="ear left"></div>
-            <div class="ear"></div>
-            <div class="head">
-              <div class="eye"></div>
-              <div class="eye"></div>
-              <div class="nouse"></div>
-              <div class="mouth"></div>
+        <div className="content">
+          <div className="pikachu">
+            <div className="ear left"></div>
+            <div className="ear"></div>
+            <div className="head">
+              <div className="eye"></div>
+              <div className="eye"></div>
+              <div className="nouse"></div>
+              <div className="mouth"></div>
             </div>
           </div>
         </div>
