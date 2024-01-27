@@ -6,4 +6,4 @@
 
 The Pokédex preview:
 
-<img src="https://github.com/joseandresgavilanes/pokedex-fullstack/assets/76002851/c4c45027-3dfa-4360-9fac-252da2f46af3" alt="Pokedex Preview" style="width:100%;">
+<img src="https://github.com/joseandresgavilanes/pokedex-fullstack/assets/76002851/c4c45027-3dfa-4360-9fac-252da2f46af3" alt="Pokedex Preview" height="400px" style="width:100%;">
